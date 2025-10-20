@@ -21,8 +21,10 @@ Whether you’re looking to use SDS to start a new project, or are looking for e
 
 ### Figma Auth
 
-- [Create a Figma API token](https://www.figma.com/developers/api#authentication) and request the following scopes if you want to use the integrations in [scripts](./scripts/)
+- [Create a Figma API token](https://www.figma.com/developers/api#authentication) and request the following scopes to work with Code Connect
   - ```file_code_connect_scope:write``` - to work with Code Connect
+
+and these scopes, if you want to use the integrations in [scripts](./scripts/)
   - ```file_dev_resources:read```- Read dev resources in files.
   - ```file_dev_resources:write``` - Write dev resources to files
   - ```file_variables:read``` - Read variables in files. Note: Enterprise plan only.
