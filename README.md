@@ -23,6 +23,7 @@ Whether you’re looking to use SDS to start a new project, or are looking for e
 
 - [Create a Figma API token](https://www.figma.com/developers/api#authentication) and request the following scopes to work with Code Connect
   - ```file_code_connect_scope:write``` - to work with Code Connect
+  - [More on Code Connect scopes](https://developers.figma.com/docs/code-connect/quickstart-guide/#before-you-begin)
 
 and these scopes, if you want to use the integrations in [scripts](./scripts/)
   - ```file_dev_resources:read```- Read dev resources in files.
@@ -31,7 +32,7 @@ and these scopes, if you want to use the integrations in [scripts](./scripts/)
   - ```file_variables:write``` - Write variables and collections in files. Note: Enterprise plan only.
   - ```file_metadata:read``` - Read metadata of files.
   - ```file_versions:read``` - Read the version history for files you can access.
-  - [More on scopes](https://www.figma.com/developers/api#authentication-scopes)
+  - [More on REST API scopes](https://www.figma.com/developers/api#authentication-scopes)
 - Duplicate [.env-rename](./.env-rename)
 - Rename it to `.env`, it will be ignored by git.
   - Set `FIGMA_ACCESS_TOKEN=` as your token in `.env`
